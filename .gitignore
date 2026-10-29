@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# Expo / build output
+.expo/
+dist/
+web-build/
+android/
+ios/
+*.aab
+*.apk
+
+# signing keys and service files — never commit
+*.jks
+*.keystore
+*.p8
+*.p12
+*.pem
+google-services.json
+GoogleService-Info.plist
+credentials.json
+
+# env
+.env*
+!.env.example
+
+# logs, OS
+*.log
+.DS_Store
+
+# rem-sdlc working dir
+_/
